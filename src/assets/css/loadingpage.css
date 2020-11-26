@@ -1,0 +1,81 @@
+#loadingpage-container{
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;    
+}
+
+#loading-text-container{
+    order: 1;
+    width: 100%;
+    margin-bottom: 8%;
+}
+
+#tip-container{
+    order: 2;
+    width: 100%;
+}
+
+.header {
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    color: black;
+    margin-top: 12%;
+    text-align: center;
+}
+
+span.green-text {
+    color:#0CC18B;
+    background: none;
+}
+
+.sub-text {   
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    margin-top: 55px;
+    margin-left: auto;
+    margin-right: auto;
+    
+    text-align: center;
+
+    width: 320px;
+    color: black;
+}
+
+.tip-box {    
+    width: 338px;
+    height: 193px;
+    /* margin: 0% 1.5%; */
+
+    background: #0CC18B;
+    border-radius: 40px;
+
+    padding: 0% 5%;
+    display: flex;
+    align-items: center;
+}
+
+.tip-text {
+    text-align: center;
+    
+    font-family: 'Nunito', sans-serif;
+    font-size: 17px;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+/* .tip-gen {
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: normal;
+    margin-top: 5%;
+    color: rgb(255, 0, 0);
+} */
+
+/* @keyframes moving-box {
+    0%   {left: 0%;}
+    100% {left: 75%;}
+} */

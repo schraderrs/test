@@ -1,0 +1,57 @@
+ .img {
+    width: 350px;
+    height: 350px;
+}
+
+.col1-container-mc {
+    margin-left: 8%;  
+    padding-right: 8%;
+    margin-top: 8%;
+    margin-bottom: 24%
+}
+
+.test123 {
+    columns: 2 auto;
+    margin-bottom: 8%;
+    font-size: 18px
+}
+
+.vote-mc {
+    font-family: nunito;
+    width: 171px;
+    height: 56px;
+    color: white;
+    background: #0CC18B;
+    border: 2px solid #0CC18B;
+    box-sizing: border-box;
+    border-radius: 35px; 
+    float: right;
+    margin-right: 8%;
+}
+
+.row-mc {
+    margin-bottom: 8%;
+}
+
+.skip-mc {
+    font-family: nunito;
+    width: 171px;
+    height: 56px;
+    color: gray;
+    border: 0px;
+    background: transparent;
+    float: right;
+}
+
+.text-mc {
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px
+}
+
+.title-mc {
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: bold;
+}

@@ -1,0 +1,53 @@
+.fullPage {
+    height: 100vh;
+    justify-content: center;
+    transform: translate(0, 30vh);
+}
+
+.login-section {
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+.login-text {
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 49px;
+    margin-bottom: 2%;
+    text-align: center;
+}
+
+.login-span-hp {
+    color: #0CC18B;
+}
+
+.login-container {
+    box-shadow: 4px 5px #f7f7f7;
+}
+
+.submit {
+    font-family: nunito;
+    width: 171px;
+    height: 56px;
+    color: white;
+    background: #0CC18B;
+    border: 2px solid #0CC18B;
+    box-sizing: border-box;
+    border-radius: 35px; 
+    font-size: 15pt;
+    float: right;
+}
+
+.errorText {
+    color: red;
+    text-align: center;
+}
+
+@media only screen and (max-width: 800px) {
+    .login-section {
+        margin-left: 0;
+        margin-right: 0;
+    }
+  }

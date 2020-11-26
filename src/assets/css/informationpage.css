@@ -1,0 +1,79 @@
+button:focus {
+    outline:0;
+}
+
+html, body {
+    margin: 0; height: 100%;
+}
+
+.info-inner {
+    padding-top: 10%;
+}
+
+::selection{
+    color: #000000;
+    background: #0CC18B;
+}
+
+#container{
+    display: flex;
+    align-items: center;
+}
+
+.background-img {
+    background-image: url('../img/tool.png');
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.head{
+    font-size: 36px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.head span{
+    color: #0CC18B;
+}
+
+.button{
+    width: 171px;
+    height: 56px;
+    left: 463px;
+    top: 707px;
+    background: #0CC18B;
+    border-radius: 35px;
+    border: none;
+    
+    font-family: 'Nunito', sans-serif;
+    font-size: 17px;
+    color: #ffffff;
+
+    float: right;
+}
+
+.button-right{
+    float: right;
+}
+
+.button-left{
+    float: left;
+}
+
+.button:hover{
+    background: #179771;
+}
+
+.clock-icon {
+    margin-top: -4px;
+}
+
+@media only screen and (max-width: 900px) {
+    .background-img {
+        display: none;
+    }
+  }
+
+

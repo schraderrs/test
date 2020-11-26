@@ -1,0 +1,12 @@
+.button-participate-f {
+    font-family: nunito;
+    width: 171px;
+    height: 56px;
+    color: white;
+    background: #0CC18B;
+    border: 2px solid #0CC18B;
+    box-sizing: border-box;
+    border-radius: 35px; 
+    margin-top: 50px;
+    margin-left: 250px;
+}

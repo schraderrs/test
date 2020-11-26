@@ -1,0 +1,70 @@
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.bg_image-hp {
+    background-image: url('../img/windmills.png');
+    background-size: cover;
+    height: 100vh;
+    color: #f5f5f5;
+}
+
+.row1-hp {
+    display: flex;
+    align-items: center;
+}
+
+.homepage-info {
+    text-align: center;
+}
+
+.errorMessage {
+    color: #D86972;
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: bold;
+}
+
+.col1-container-hp .header-text-hp {
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 49px;
+    margin-bottom: 100px;
+}
+
+.header-text-hp .header-span-hp {
+    color: #0CC18B;
+}
+
+.col1-container-hp .body-text-hp {
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    /* text-align: center; */
+}
+
+.input-tool-hp:focus .react-code-input:focus {
+    outline: none!important;
+}
+
+.button-participate-hp {
+    font-family: nunito;
+    width: 171px;
+    height: 56px;
+    color: white;
+    background: #0CC18B;
+    border: 2px solid #0CC18B;
+    box-sizing: border-box;
+    border-radius: 35px; 
+    margin-top: 50px;
+}
+
+.text-link:hover {
+    text-decoration: none;
+}
